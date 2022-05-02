@@ -65,7 +65,7 @@ RTL realization
 ### Output:
 ### HALF ADDER
 ### Logic
-![](halflogic.png)
+![](logic1.png)
 ### RTL
 ![](halfadder.png)
 
@@ -79,7 +79,7 @@ RTL realization
 ### FULL ADDER
 
 ### Logic
-![](fulllogic.png)
+![](logic2.png)
 
 ### RTL
 ![](fulladder.png)
