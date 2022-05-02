@@ -41,23 +41,24 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by: Koduru Sanath Kumar Reddy
 RegisterNumber:  212221240024*/
 HALF ADDER
-
+```
 module Adder(a,b,sum,carry);
 input a,b;
 output sum,carry;
 xor(sum,a,b);
 and(carry,a,b);
 endmodule 
+```
 
 FULL ADDER
-
+```
 module FullAdder(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
 assign sum = ((a^b)^c);
 assign carry = ((a&b)|(b&c)|(c&a));
 endmodule
-
+```
 Logic symbol & Truthtable
 RTL realization
 
