@@ -44,6 +44,8 @@ RegisterNumber:  212221240024
 
 HALF ADDER
 ```
+/*Developed by: Koduru Sanath Kumar Reddy
+RegisterNumber:  212221240024*/
 module Adder(a,b,sum,carry);
 input a,b;
 output sum,carry;
